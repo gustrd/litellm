@@ -238,6 +238,8 @@ maritalk_models = [
     "maritalk"
 ]
 
+cohere_models.append("command-multilingual-alpha")
+
 model_list = (
     open_ai_chat_completion_models
     + open_ai_text_completion_models
